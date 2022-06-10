@@ -31,7 +31,7 @@ header div{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1168px;
     margin: auto;
 }
 
@@ -191,6 +191,101 @@ background-image: url('../images/backgroundfirst.png');
 .section_first ul li:last-of-type:before{
     background-image: url("../images/img4.svg");
     width: 10px;
+}
+
+.what_we_do{
+    background-color: black;
+    padding: 113px 0 100px;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.what_we_do p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.allblocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.allblocks .item{
+    margin-bottom: 26px;
+    max-width: 576px;
+    position: relative;
+
+}
+
+.allblocks .item img{
+    display: block;
+    width: 100%;
+}
+
+.what_we_do .description{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.what_we_do .description h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.what_we_do .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.read_more{
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 6px 10px 6px 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.read_more:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 58%;
+    margin-right: 6px;
+
 }
 
 .section2{

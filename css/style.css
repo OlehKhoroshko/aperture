@@ -730,7 +730,10 @@ background-image: url('../images/backgroundfirst.png');
 footer{
     background-color: black;
     padding-top: 92px;
-    padding-bottom: 104px;
+    padding-bottom: 100px;
+    background-size: cover;
+    max-width: 100%;
+
 }
 
 .flex_container{
@@ -840,22 +843,13 @@ footer .flex_container:nth-child(2){
     padding-bottom: 40px;
 }
 
-footer .social_items{
-    position: relative;
 
-}
 
-footer .social_items ul{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
 
 footer .flex_container:last-of-type{
     border-bottom: none;
     padding-top: 56px;
     padding-bottom: 104px;
-    position: absolute;
 
 }
 

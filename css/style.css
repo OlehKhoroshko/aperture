@@ -831,6 +831,13 @@ footer .right_item form button{
 }
 
 
+footer .social_items ul{
+    display: flex;
+}
+
+footer .social_items ul li{
+    margin-left: 20px;
+}
 
 footer .flex_container:first-of-type{
     padding-top: 100px;

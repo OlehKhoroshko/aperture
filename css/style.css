@@ -860,3 +860,28 @@ footer .flex_container:last-of-type{
 
 }
 
+@keyframes logos {
+    0%{
+        top: 20px;
+        transform: scale(1.1);
+    }
+    25%{
+        top: 40px;
+    }
+    50%{
+        top: 0px;
+        background-color: black;
+    }
+    75%{
+        top: 40px;
+        background-color: black;
+    }
+    100%{
+        top:20px;
+        transform: scale(0);
+    }
+}
+
+header .logo img{
+    animation:logos 5s infinite;
+}

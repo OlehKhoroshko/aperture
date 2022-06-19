@@ -124,4 +124,9 @@ footer .right_item form{
         left: 0;
 
     }
+    .owl-nav{
+        justify-content: space-around;
+    }
+
+
 }

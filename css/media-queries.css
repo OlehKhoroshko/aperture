@@ -3,45 +3,48 @@
 @media only screen and (max-width: 375px) {
 
 
-header .d-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
-}
 
-    header nav ul li:nth-child(2):after {
-        content: "NEW";
-        display: none;
+
+    .nav-but-wrap{
+        display: inline-block;
     }
 
-header nav ul li {
-    margin: 5px;
-}
-
-    header nav ul li a{
-        color: #FFFFFF;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 10px;
+    .nav {
+        position: fixed;
+        height: 100%;
     }
 
-    header nav li:last-of-type{
-        padding: 4px 4px 4px 4px;
-        text-align: center;
+    .nav__content {
+        position: fixed;
+        visibility: hidden;
+        top: 50%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
     }
 
-    header nav li:last-of-type a{
-
-        font-size: 12px;
-        line-height: 10px;
+    .nav__list{
+        display: inline-block;
     }
-header nav li:first-of-type a{
-    font-size: 12px;
-    line-height: 10px;
-    margin-left: 10px;
-}
+
+    .nav__list-item {
+        opacity: 1;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 1.15;
+        position: relative;
+        top: 10px;
+
+
+    }
+
+    header .logo img{
+      animation: inherit;
+        position: absolute;
+        left: -25px;
+
+
+    }
+
 
     .section_first{
         height: 100vh;
